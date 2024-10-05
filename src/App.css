@@ -1,0 +1,274 @@
+.App-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 901px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.App-header .App-wrapper {
+  justify-content: space-between;
+}
+
+.App-body {
+  margin-top: 30px;
+}
+
+.App-body .App-wrapper {
+  flex-direction: column;
+}
+
+.Ads {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 50px;
+}
+
+.Ads__image-container {
+  width: 100px;
+}
+
+.Ads-image {
+  border-radius: 100px;
+}
+
+.Ads-title {
+  margin-top: 10px;
+  margin-bottom: 0;
+
+  font-size: 18px;
+}
+
+.Ads-title__link {
+  color: #0054b9;
+}
+
+.Ads-description {
+  margin-top: 10px;
+  margin-bottom: 0;
+
+  font-size: 14.5px;
+}
+
+.Banner {
+  margin-top: 15px;
+}
+
+.Banner-image {
+  height: 100px;
+
+  object-fit: cover;
+}
+
+.App-footer {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+
+.Exchange-rates-container {
+  display: flex;
+  margin-top: 9px;
+}
+
+.Exchange-rates {
+  display: flex;
+
+  font-size: 13.5px;
+}
+
+.Exchange-rates__item {
+  margin-right: 12px;
+}
+
+.Exchange-rates__item-link {
+  font-weight: 700;
+  text-transform: uppercase;
+
+  color: #000000;
+}
+
+.Exchange-rates__item-rate {
+  margin-left: 6px;
+
+  color: #90919d;
+}
+
+.Exchange-rates__more-rates {
+  color: #90919d;
+}
+
+.News-nav {
+  display: flex;
+}
+
+.News-nav-menu {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.News-nav-menu__item {
+  margin-right: 12px;
+}
+
+.News-nav-menu__item,
+.News-nav-menu__item-link {
+  font-weight: 700;
+
+  color: #6da2e1;
+}
+
+.News-nav-menu__item.active,
+.News-nav-menu__item-link {
+  color: #0054b9;
+}
+
+.News-current-datetime {
+  font-size: 13px;
+
+  color: #90919d;
+}
+
+.News-content {
+  margin-top: 9px;
+
+  font-size: 14.5px;
+}
+
+.News-content__link {
+  color:black;
+  text-decoration: none;
+}
+
+.Search {
+  width: 100%;
+}
+
+.Search-nav {
+  display: flex;
+}
+
+.Search-nav-menu {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Search-nav-menu__item {
+  margin-right: 18px;
+}
+
+.Search-nav-menu__item,
+.Search-nav-menu__item-link {
+  font-weight: 400;
+
+  color: #0054b9;
+}
+
+.Search-bar {
+  display: flex;
+  margin-top: 7px;
+  margin-left: -135px;
+}
+
+.Search-bar-label {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-right: 20px;
+
+  font-weight: 700;
+  font-size: 34px;
+}
+
+.Search-bar-label::first-letter {
+  color: #ff0000;
+}
+
+.Search-bar-input {
+  width: 100%;
+  padding: 5px;
+
+  border: 2px solid #ffcc00;
+}
+
+.Search-bar-button {
+  padding: 5px 20px 5px 15px;
+
+  background-color: #ffcc00;
+  border: none;
+
+  cursor: pointer;
+
+  clip-path: polygon(90% 0, 100% 50%, 100% 50%, 90% 100%, 0 100%, 0 50%, 0 0);
+}
+
+.Search-advice {
+  margin-top: 5px;
+  margin-bottom: 0;
+
+  font-size: 13.5px;
+}
+
+.Search-advice__example {
+  color: #90919d;
+}
+
+.Widgets {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Widgets-column {
+  flex: calc(100% / 3 - 31.33px);
+  width: 290px;
+}
+
+.Widgets-column:not(:first-child) {
+  padding-left: 15px;
+}
+
+.Widget-container {
+  margin-top: 15px;
+}
+
+.Widget-title {
+  margin-top: 0;
+  margin-bottom: 5px;
+
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.Widget-title__link {
+  color: #0054b9;
+}
+
+.Widget-list__item {
+  font-size: 13.5px;
+}
+
+.Widget-list__item-source {
+  color: #90919d;
+}
+
+.Weather-widget-degrees {
+  display: flex;
+  align-items: center;
+}
+
+.Weather-widget-degrees__average {
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.Weather-widget-degrees__in-detail {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+
+  font-size: 14px;
+  line-height: initial;
+}
+
